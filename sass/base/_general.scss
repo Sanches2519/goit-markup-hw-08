@@ -51,6 +51,7 @@ body {
     text-transform: uppercase;
     color: var(--text-footer);
   }
+       
   @media screen and (min-width: 1200px) {
     .title {
       margin-bottom: 50px;
@@ -59,4 +60,7 @@ body {
       line-height: 1.16;
       text-align: center;
     }  
+    .footer-title{
+      text-align: left;
+    }
   }
