@@ -1,0 +1,14 @@
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--main-text-color);
+  }
+  .logo__link {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-family: $font-family-logo;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-color);
+  }

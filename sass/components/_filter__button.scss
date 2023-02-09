@@ -1,0 +1,39 @@
+.filter__button {
+    display: inline-block;
+    border: 0;
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    transition: color var(--animation), background-color var(--animation),
+      box-shadow var(--animation);
+      &:hover,
+  &:focus {
+    color: var(--secondary-text-btn);
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow-filter);
+  }
+&--first{
+    min-width: 73px;
+}
+&--second{
+    min-width: 125px;
+}
+&--third{
+    min-width: 112px;
+}
+&--fourth{
+    min-width: 103px;
+}
+&--fifth{
+    min-width: 130px;
+}
+  }
+  
+  
+  
+ 
+  
+  

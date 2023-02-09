@@ -1,0 +1,24 @@
+.logotype__link{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-family:$font-family-logo;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--secondary-color);
+
+    &--footer{
+        display: block;
+        color: var(--secondary-color);
+  margin-bottom: 20px;
+    }
+}
+.logotype__label {
+    color: var(--text-footer);
+  }
+
+  @media screen and (max-width: 767px) {
+    .logotype{
+      margin-bottom: 60px;
+    }
+  }

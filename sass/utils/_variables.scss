@@ -1,0 +1,31 @@
+:root {
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --secondary-color: #2196f3;
+    --primary-style-button: #f5f4fa;
+    --secondary-text-btn: #ffffff;
+    --text-footer: #ffffff;
+    --contact-link-footer: rgba(255, 255, 255, 0.6);
+    --background-color: #2f303a;
+    --secondary-background-color: #ffffff;
+    --third-background-color: #f5f5f5;
+    --fourth-background-color: #f5f4fa;
+    --background-main-button: #188ce8;
+    --border-color: #eeeeee;
+    --border-header-color: #ececec;
+    --background-features-icon: rgba(245, 244, 250, 1);
+    --team-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    --icon-color: rgba(175, 177, 184, 1);
+    --team-social-background-color: rgba(255, 255, 255, 1);
+    --box-shadow-filter: 0px 3px 1px rgba(0, 0, 0, 0.1),
+      0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    --footer-soc-background: rgba(255, 255, 255, 0.1);
+    --filter-card-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  // @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+  $font-family-main: 'Roboto', sans-serif; 
+$font-family-logo: 'Raleway', sans-serif;

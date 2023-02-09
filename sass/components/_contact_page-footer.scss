@@ -1,0 +1,27 @@
+.address {
+    color: var(--text-footer);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    &__text{
+        margin-bottom: 9px;
+    }   
+  }
+  .address__item {
+    margin-bottom: 9px;
+
+    &:last-child{
+        margin-bottom: 0;
+    }
+  }
+  .address__contact {
+    color: var(--contact-link-footer);
+    transition: color var(--animation);
+
+    &:hover,
+    &:focus{
+        color: var(--secondary-color);
+    }
+  }
