@@ -8,11 +8,10 @@
   align-items: center;
   padding: 0;
   width: 100%;
-  height: 23px;
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
 
   color: var(--main-text-color);
 }
@@ -181,6 +180,9 @@
     }
   }
   @media screen and (min-width: 1200px) {
+    .modal-header{
+      line-height: 1.15;
+    }
     .modal__field-input--coment{
       width: 448px;
     }  
