@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <!-- <header class="page-header">
+    <header class="page-header">
       <div class="page-header__container container">
         <nav class="logo">
           <a class="logo__link link" href="./index.html"
@@ -30,7 +30,7 @@
             <li class="navigation__item">
               <a
                 href="./index.html"
-                class="navigation__link navigation__link--current link"
+                class="navigation__link link navigation__link--current"
                 >Студія</a
               >
             </li>
@@ -60,65 +60,23 @@
             >
           </li>
         </ul>
+        <button type="button" class="mobile-menu-btn" data-menu-open>
+          <svg class="mobile-menu-btn__icon" width="40" height="40">
+            <use href="./images/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
-      <!-- <button type="button" class="mobile-menu-btn" data-menu-open>
-        <svg class="mobile-menu-btn_icon" width="40" height="40">
-          <use href="./images/symbol-defs.svg#icon-menu"></use>
-        </svg>
-      </button>
       <div class="mobile-menu" data-menu>
-        <div>
-          <button type="button" class="mobile-menu__close-btn" data-menu-close>
-            <svg class="mobile-menu-btn_icon" width="40" height="40">
+        <div class="container mobile-menu__conteiner">
+          <button type="button" class="mobile-menu__bth-close" data-menu-close>
+            <svg class="mobile-menu-btn__icon" width="40" height="40">
               <use href="./images/symbol-defs.svg#icon-close"></use>
             </svg>
           </button>
-          <ul class="mobile-menu-nav list">
-            <li class="mobile-menu-nav_item">
-              <a
-                href="./index.html"
-                class="mobile-menu-nav_link mobile-menu-nav_link--current link"
-                >Студія</a
-              >
-            </li>
-            <li class="mobile-menu-nav_item" class="mobile-menu-nav_link link">
-              <a href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="mobile-menu-nav_item">
-              <a href="" class="mobile-menu-nav_link link">Контакти</a>
-            </li>
-          </ul>
-          <ul class="mobile-menu-contact list">
-            <li class="mobile-menu-contact_item">
-              <a href="+38 096 111 11 11" class="mobile-menu-contact_link link"
-                >+38 096 111 11 11</a
-              >
-            </li>
-            <li class="mobile-menu-contact_item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="mobile-menu-contact_link link"
-                >mailto:info@devstudio.com</a
-              >
-            </li>
-          </ul>
-          <ul class="mobile-menu-soc list">
-            <li class="mobile-menu-soc_item">
-              <a href="" class="mobile-menu-soc_link link">Instagram</a>
-            </li>
-            <li class="mobile-menu-soc_item">
-              <a href="" class="mobile-menu-soc_link link">Twitter</a>
-            </li>
-            <li class="mobile-menu-soc_item">
-              <a href="" class="mobile-menu-soc_link link">Facebook</a>
-            </li>
-            <li class="mobile-menu-soc_item">
-              <a href="" class="mobile-menu-soc_link link">Linkedin</a>
-            </li>
-          </ul>
+          <ul class="mobile-menu-nav list"></ul>
         </div>
-      </div> -->
-    </header> -->
+      </div>
+    </header>
     <main>
       <section class="hero section">
         <div class="container">
@@ -464,33 +422,33 @@
             <li class="item team__item">
               <picture>
                 <source
-                srcset="
-                  ./images/img-3-desc.jpg    1x,
-                  ./images/img-3-desc@2x.jpg 2x
-                "
-                media="(min-width: 1200px)"
-              />
-              <source
-                srcset="
-                  ./images/img-3-tab.jpg    1x,
-                  ./images/img-3-tab@2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
-                  ./images/img-3-mob.jpg    1x,
-                  ./images/img-3-mob@2x.jpg 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <img
-                class="image"
-                src="./images/img-3-mob.jpg"
-                alt="Микола Тарасов Marketing"
-                width="450"
-              />
-              </picture>              
+                  srcset="
+                    ./images/img-3-desc.jpg    1x,
+                    ./images/img-3-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-3-tab.jpg    1x,
+                    ./images/img-3-tab@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-3-mob.jpg    1x,
+                    ./images/img-3-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="image"
+                  src="./images/img-3-mob.jpg"
+                  alt="Микола Тарасов Marketing"
+                  width="450"
+                />
+              </picture>
               <div class="team-card">
                 <h3 class="team-card__name">Микола Тарасов</h3>
                 <p class="text team-card__text">Marketing</p>
@@ -535,33 +493,33 @@
             <li class="item team__item">
               <picture>
                 <source
-                srcset="
-                  ./images/img-4-desc.jpg    1x,
-                  ./images/img-4-desc@2x.jpg 2x
-                "
-                media="(min-width: 1200px)"
-              />
-              <source
-                srcset="
-                  ./images/img-4-tab.jpg    1x,
-                  ./images/img-4-tab@2x.jpg 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
-                  ./images/img-4-mob.jpg    1x,
-                  ./images/img-4-mob@2x.jpg 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <img
-              class="image"
-              src="./images/img-4-mob.jpg"
-              alt="Михайло Єрмаков UI Designer"
-              width="450"
-            />
-              </picture>            
+                  srcset="
+                    ./images/img-4-desc.jpg    1x,
+                    ./images/img-4-desc@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-4-tab.jpg    1x,
+                    ./images/img-4-tab@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/img-4-mob.jpg    1x,
+                    ./images/img-4-mob@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="image"
+                  src="./images/img-4-mob.jpg"
+                  alt="Михайло Єрмаков UI Designer"
+                  width="450"
+                />
+              </picture>
               <div class="team-card">
                 <h3 class="team-card__name">Михайло Єрмаков</h3>
                 <p class="text team-card__text">UI Designer</p>
@@ -734,7 +692,7 @@
         </div>
       </div>
     </footer>
-    <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
