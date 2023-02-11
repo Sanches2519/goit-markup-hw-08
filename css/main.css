@@ -171,17 +171,18 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+  opacity: 0;
   overflow: auto;
-  background-color: var(--secondary-text-btn);
   visibility: hidden;
   pointer-events: none;
+  background-color: var(--secondary-text-btn);
   -webkit-transition: opacity var(--animation), visibility var(--animation);
   transition: opacity var(--animation), visibility var(--animation);
 }
 
-.mobile-menu .is-open {
+.mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
@@ -191,9 +192,9 @@ ul {
   position: absolute;
   top: 10px;
   right: 15px;
-  background-color: var(secondary-text-btn);
   border: 0;
   padding: 0;
+  background-color: var(secondary-text-btn);
 }
 .mobile-menu__bth-close:hover, .mobile-menu__bth-close:focus {
   fill: var(--secondary-color);
@@ -210,8 +211,71 @@ ul {
   margin-bottom: 302px;
 }
 
+.mobile-menu-nav__link {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.mobile-menu-nav__link:hover, .mobile-menu-nav__link:focus {
+  color: var(--secondary-color);
+}
+.mobile-menu-nav__link--current {
+  color: var(--secondary-color);
+}
+
 .mobile-menu-nav__item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.mobile-menu-contact {
+  margin-bottom: 64px;
+}
+
+.mobile-menu-contact__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-menu-contact__link--tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.mobile-menu-contact__link--mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.mobile-menu-soc__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mobile-menu-soc__link {
+  display: block;
+  position: relative;
+  padding-right: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.mobile-menu-soc__link::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  right: 10px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .logo {
