@@ -1,20 +1,28 @@
-.navigation {
+@media screen and (max-width: 767px) {
+  .navigation {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .navigation {
     display: flex;
+    align-items: center;
   }
   .nav {
-    margin-left: 93px;
+    margin-left: 88px;
   }
-  .navigation__item{
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  .navigation__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
-  &:not(:last-child) {
-    margin-right: 50px;
+    &:not(:last-child) {
+      margin-right: 50px;
+    }
   }
-  }
+
   .navigation__link {
     display: block;
     padding-top: 32px;
@@ -27,28 +35,29 @@
     transition: color var(--animation);
 
     &:hover,
-    &:focus{
-        color: var(--secondary-color);
+    &:focus {
+      color: var(--secondary-color);
     }
   }
   .navigation__link--current {
     position: relative;
     color: var(--secondary-color);
 
-    &::after{
-        content: "";
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 4px;
-        left: 0;
-        bottom: 0;
-        background-color: var(--secondary-color);
-        border-radius: 2px;
+    &::after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 100%;
+      height: 4px;
+      left: 0;
+      bottom: 0;
+      background-color: var(--secondary-color);
+      border-radius: 2px;
     }
   }
-  @media screen and (max-width: 767px) {
-    .navigation{
-      display: none;
-    }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    margin-left: 93px;
   }
+}

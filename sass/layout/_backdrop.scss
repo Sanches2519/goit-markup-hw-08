@@ -57,7 +57,7 @@
   transform: translate(-50%, -50%) scale(0.5);
   opacity: 0;
 }
-@media screen {
+@media screen and (min-width: 480px) {
   
 }
 @media screen and (min-width: 1200px) {
