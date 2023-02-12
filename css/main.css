@@ -1322,6 +1322,11 @@ ul {
     margin-bottom: 60px;
   }
 }
+@media screen and (min-width: 760px) and (max-width: 1200px) {
+  .logotype {
+    margin-right: 165px;
+  }
+}
 .address {
   color: var(--text-footer);
   font-style: normal;
@@ -1398,11 +1403,6 @@ ul {
 @media screen and (max-width: 767px) {
   .footer-social {
     margin-bottom: 60px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .footer-social {
-    margin-left: auto;
   }
 }
 .subscription {
