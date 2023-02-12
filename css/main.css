@@ -1322,7 +1322,7 @@ ul {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 760px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .logotype {
     margin-right: 165px;
   }
