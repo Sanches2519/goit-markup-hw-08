@@ -179,6 +179,11 @@
         background-color: var(--background-main-button);
     }
   }
+  @media screen and (max-width: 479px) {
+    .modal__license-label{
+      font-size: 8px;
+    }
+  }
   @media screen and (min-width: 1200px) {
     .modal-header{
       line-height: 1.15;
