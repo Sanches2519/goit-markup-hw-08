@@ -221,6 +221,8 @@ ul {
   right: 15px;
   border: 0;
   padding: 0;
+  -webkit-transition: visibility var(--animation);
+  transition: visibility var(--animation);
   background-color: var(--secondary-text-btn);
 }
 .mobile-menu__bth-close:hover, .mobile-menu__bth-close:focus {

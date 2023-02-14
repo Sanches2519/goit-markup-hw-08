@@ -37,6 +37,7 @@
   right: 15px;
   border: 0;
   padding: 0;
+  transition: visibility var(--animation);
   background-color: var(--secondary-text-btn);
   &:hover,
   &:focus {
