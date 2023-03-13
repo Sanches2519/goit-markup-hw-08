@@ -319,20 +319,17 @@ ul {
 }
 
 @media screen and (max-width: 479px) {
-  .mobile-menu-nav {
-    margin-bottom: 150px;
-  }
   .mobile-menu-nav__link {
     font-size: 24px;
   }
   .mobile-menu-contact__link--tel {
-    font-size: 20px;
+    font-size: 25px;
   }
   .mobile-menu-contact__link--mail {
     font-size: 20px;
   }
   .mobile-menu-soc__item {
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -903,7 +900,7 @@ ul {
 
 @media screen and (max-width: 479px) {
   .modal__license-label {
-    font-size: 7px;
+    font-size: 8px;
   }
 }
 @media screen and (min-width: 1200px) {
